@@ -6,12 +6,10 @@
 /*   By: pmoreira <pmoreira@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/23 11:15:31 by pmoreira          #+#    #+#             */
-/*   Updated: 2024/10/23 11:29:36 by pmoreira         ###   ########.fr       */
+/*   Updated: 2024/10/23 12:19:17 by pmoreira         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_strlen(char *str);
-int	ft_strlen(char *str);
 int	ft_strlen(char *str);
 
 int	ft_strlen(char *str)
