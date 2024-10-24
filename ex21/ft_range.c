@@ -6,7 +6,7 @@
 /*   By: pmoreira <pmoreira@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/23 14:33:29 by pmoreira          #+#    #+#             */
-/*   Updated: 2024/10/24 14:56:54 by pmoreira         ###   ########.fr       */
+/*   Updated: 2024/10/24 15:02:12 by pmoreira         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ int	*ft_range(int min, int max)
 	}
 	return (range);
 }
-
+/*
 #include <stdio.h>
 
 int	main(void)
@@ -52,3 +52,4 @@ int	main(void)
 		i++;
 	}
 }
+*/
