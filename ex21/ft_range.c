@@ -6,7 +6,7 @@
 /*   By: pmoreira <pmoreira@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/23 14:33:29 by pmoreira          #+#    #+#             */
-/*   Updated: 2024/10/23 14:53:30 by pmoreira         ###   ########.fr       */
+/*   Updated: 2024/10/24 14:56:54 by pmoreira         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ int	*ft_range(int min, int max)
 	int	i;
 
 	i = 0;
-	if (min > max)
+	if (min >= max)
 		return (0);
 	range = (int *) malloc((max - min) * sizeof(int));
 	if (range == 0)
@@ -32,7 +32,7 @@ int	*ft_range(int min, int max)
 	}
 	return (range);
 }
-/*
+
 #include <stdio.h>
 
 int	main(void)
@@ -42,8 +42,8 @@ int	main(void)
 	int	min;
 	int	max;
 
-	min = -3;
-	max = 7;
+	min = -1;
+	max = 8;
 	i = 0;
 	range = ft_range(min, max);
 	while (i < (max - min))
@@ -52,4 +52,3 @@ int	main(void)
 		i++;
 	}
 }
-*/
