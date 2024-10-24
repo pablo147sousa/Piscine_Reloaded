@@ -6,7 +6,7 @@
 /*   By: pmoreira <pmoreira@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/22 14:00:44 by pmoreira          #+#    #+#             */
-/*   Updated: 2024/10/22 14:18:45 by pmoreira         ###   ########.fr       */
+/*   Updated: 2024/10/24 14:43:43 by pmoreira         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ void	ft_print_alphabet(void)
 	letter = 97;
 	while (letter <= 122)
 	{
-		write(1, &letter, 1);
+		ft_putchar(letter);
 		letter++;
 	}
 }

@@ -6,7 +6,7 @@
 /*   By: pmoreira <pmoreira@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/22 14:21:23 by pmoreira          #+#    #+#             */
-/*   Updated: 2024/10/22 14:23:01 by pmoreira         ###   ########.fr       */
+/*   Updated: 2024/10/24 14:43:21 by pmoreira         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,13 +17,13 @@ void	ft_print_numbers(void);
 
 void	ft_print_numbers(void)
 {
-	char	letter;
+	char	num;
 
-	letter = '0';
-	while (letter <= '9')
+	num = '0';
+	while (num <= '9')
 	{
-		write(1, &letter, 1);
-		letter++;
+		ft_putchar(num);
+		num++;
 	}
 }
 /*
