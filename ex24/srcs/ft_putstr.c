@@ -6,11 +6,11 @@
 /*   By: pmoreira <pmoreira@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/22 16:25:13 by pmoreira          #+#    #+#             */
-/*   Updated: 2024/10/24 12:59:27 by pmoreira         ###   ########.fr       */
+/*   Updated: 2024/10/25 15:13:48 by pmoreira         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ex24/includes/libft.h"
+#include "libft.h"
 #include <unistd.h>
 
 void	ft_putchar(char c);

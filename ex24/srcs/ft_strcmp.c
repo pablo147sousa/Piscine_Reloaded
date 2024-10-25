@@ -6,11 +6,11 @@
 /*   By: pmoreira <pmoreira@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/23 11:31:06 by pmoreira          #+#    #+#             */
-/*   Updated: 2024/10/24 12:59:31 by pmoreira         ###   ########.fr       */
+/*   Updated: 2024/10/25 15:13:55 by pmoreira         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ex24/includes/libft.h"
+#include "libft.h"
 
 int	ft_strcmp(char *s1, char *s2);
 
